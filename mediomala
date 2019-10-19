@@ -1,0 +1,14 @@
+num=int(input("El grosor de la piramide porfavor"))
+n=int(num-1)
+o=n
+k=0
+l="* "
+while k<num:
+    o=n
+    while n>0:
+        print(" ", end="")
+        n-=1
+    print(l)
+    l+="* "
+    k+=1
+    n=o-1
